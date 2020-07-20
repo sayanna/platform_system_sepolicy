@@ -46,6 +46,7 @@ android.hardware.memtrack::IMemtrack                            u:object_r:hal_m
 android.hardware.neuralnetworks::IDevice                        u:object_r:hal_neuralnetworks_hwservice:s0
 android.hardware.nfc::INfc                                      u:object_r:hal_nfc_hwservice:s0
 android.hardware.oemlock::IOemLock                              u:object_r:hal_oemlock_hwservice:s0
+android.hardware.opersys::IOpersys                              u:object_r:hal_power_hwservice:s0
 android.hardware.power::IPower                                  u:object_r:hal_power_hwservice:s0
 android.hardware.power.stats::IPowerStats                       u:object_r:hal_power_stats_hwservice:s0
 android.hardware.radio.config::IRadioConfig                     u:object_r:hal_telephony_hwservice:s0

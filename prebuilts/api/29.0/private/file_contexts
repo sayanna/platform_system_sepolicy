@@ -650,3 +650,9 @@
 #############################
 # mount point for read-write product partitions
 /mnt/product(/.*)?          u:object_r:mnt_product_file:s0
+
+# For kernel modules
+/lib64(/.*)?				u:object_r:rootfs:s0
+
+# For accessing kernel circular buffer module
+/dev/circchar				u:object_r:tty_device:s0
